@@ -294,7 +294,7 @@ img {
 }
 
 .home__blob{
-    width: 200px;
+    width: 100px;
     fill: var(--first-color);
 }
 
@@ -1317,3 +1317,4 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
