@@ -168,6 +168,10 @@ const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
 
+// Force dark mode on load
+document.body.classList.add('dark-theme')
+themeButton.classList.add('uil-sun')
+
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
