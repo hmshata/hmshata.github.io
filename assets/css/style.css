@@ -401,11 +401,17 @@ img {
     margin-bottom: var(--mb-2-5);
 }
 
-.about__info{
+.about__info {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: var(--mb-1-5);
-    margin-bottom: var(--mb-2-5);
+    justify-content: center;
+    gap: 1.5rem; /* Reduced from 2rem to bring boxes closer */
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.about__info-box {
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .about__info-title{
@@ -424,10 +430,13 @@ img {
     text-align: center;
 }
 
-.about__buttons{
+.about__buttons {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; /* This centers the buttons */
+    align-items: center; /* Vertically aligns them */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    width: 100%; /* Ensure full width */
 }
 /*==================== SKILLS ====================*/
 .skills__container{
@@ -496,20 +505,24 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__MATLAB{
-    width: 81%;
+.skills__Rhino{
+    width: 90%;
 }
 
-.skills__simulink{
+.skills__Revit{
+    width: 76%;
+}
+
+.skills__AutoCAD{
+    width: 75%;
+}
+
+.skills__SketchUp{
     width: 73%;
 }
 
-.skills__python{
-    width: 65%;
-}
-
-.skills__ros{
-    width: 20%;
+.skills__PowerCADD{
+    width: 55%;
 }
 .skills__solidworks{
     width: 77%;
@@ -524,12 +537,12 @@ img {
 }
 
 
-.skills__LINUX{
-    width: 40%;
+.skills__Physical{
+    width: 92%;
 }
 
-.skills__BASH{
-    width: 30%;
+.skills__Adobe{
+    width: 91%;
 }
 
 .skills__NETWORK{
@@ -1195,12 +1208,21 @@ img {
         text-align: initial;
     }
 
-    .about__info{
-        justify-content: space-between;
+    .about__info {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem; /* Reduced from 2rem to bring boxes closer */
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
     }
 
-    .about__buttons{
-        justify-content: initial;
+    .about__buttons {
+        display: flex;
+        justify-content: center; /* This centers the buttons */
+        align-items: center; /* Vertically aligns them */
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        width: 100%; /* Ensure full width */
     }
 
     .qualification__tabs{
