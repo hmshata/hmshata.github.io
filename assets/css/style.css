@@ -506,48 +506,35 @@ img {
 }
 
 .skills__Rhino{
-    width: 90%;
+    width: 85%;
 }
 
 .skills__Revit{
-    width: 76%;
+    width: 70%;
+}
+
+
+.skills__SketchUp{
+    width: 70%;
 }
 
 .skills__AutoCAD{
-    width: 75%;
-}
-
-.skills__SketchUp{
-    width: 73%;
+    width: 65%;
 }
 
 .skills__PowerCADD{
     width: 55%;
 }
-.skills__solidworks{
-    width: 77%;
-}
-
-.skills__fusion{
-    width: 75%;
-}
-
-.skills__inventor{
-    width: 82%;
-}
 
 
 .skills__Physical{
-    width: 92%;
+    width: 95%;
 }
 
 .skills__Adobe{
-    width: 91%;
+    width: 90%;
 }
 
-.skills__NETWORK{
-    width: 30%;
-}
 
 .skills__close .skills__list{
     height: 0;
