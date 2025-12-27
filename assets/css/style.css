@@ -950,7 +950,7 @@ img {
 
 .footer__subtitle{
     font-size: var(--small-font-size);
-    padding-left: 2%;
+    /* padding-left: 2%; */
 }
 .footer__links{
     display: flex;
